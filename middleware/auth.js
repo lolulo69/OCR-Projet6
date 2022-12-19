@@ -1,5 +1,7 @@
 const jwt = require('jsonwebtoken');
  
+
+//Récupération de l'ID de l'utilisateur en décodant son Token JSON
 module.exports = (req, res, next) => {
    try {
        const token = req.headers.authorization.split(' ')[1];

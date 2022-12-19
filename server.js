@@ -1,6 +1,7 @@
 const http = require('http');
 const app = require('./app');
 
+//Normalisation du port au cas où un port par défaut serait configuré sur la machine. Sinon on utilisera le port 3000
 const normalizePort = val => {
   const port = parseInt(val, 10);
 
@@ -35,6 +36,8 @@ const errorHandler = error => {
   }
 };
 
+
+//Déclaration de la variable server et création du serveur
 const server = http.createServer(app);
 
 server.on('error', errorHandler);
