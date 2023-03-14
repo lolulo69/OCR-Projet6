@@ -2,7 +2,7 @@
 
 ## But du projet
 
-Ce projet a pour but le développement complet d'une API CURL. Ce qui permet le fonctionnement du site fourni dans la partie frontend du projet Openclassrooms.
+Ce projet a pour but le développement complet d'une API CURL. Ce qui permet le fonctionnement du site fourni dans la partie frontend du projet Openclassrooms.\
 Cette API a été développée avec l'utilisation de NodeJS, Express et MongoDB.
 
 ## Utilisation :
